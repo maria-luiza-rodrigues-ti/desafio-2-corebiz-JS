@@ -27,21 +27,23 @@ form.addEventListener("submit", (e) => {
   let carregando = `<p>Adicionando informações</p>`;
 
   let pronto = 
-  `<table>
+  `
+  <h1>Tabela de Salário (R$)</h1>
+  <table>
     <tr>
         <th>Nome</th>
-        <th>Salário Inicial</th>
-        <th>Salário Final</th>
+        <th>Inicial</th>
+        <th>Final</th>
     </tr>
     <tr>
         <td>Maria Luiza </td>
-        <td>R$ 2000,00</td>
-        <td>R$ 3500,00</td>
+        <td>2000,00</td>
+        <td>3500,00</td>
     </tr>
     <tr>
         <td>${nome}</td>
-        <td>R$ ${salario},00</td>
-        <td>R$ ${salarioFinal},00</td>
+        <td>${salario}</td>
+        <td>${salarioFinal}</td>
     </tr>
   </table>`;
 
