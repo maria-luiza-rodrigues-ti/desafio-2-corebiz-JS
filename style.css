@@ -114,3 +114,20 @@ th{
 tr{
     padding: 1%;
 }
+
+@media screen and (max-width: 768px){
+    
+    .content{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .form-container{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
